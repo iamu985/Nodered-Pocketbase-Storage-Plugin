@@ -14,7 +14,7 @@
 - **Read and Write Compatibility**: Provides backward compatibility for both read and write operations on stored flows.
 
 ## Installation
-
+The plugin should be installed inside node-red configuration directory i.e `./node-red`.
 1. **Install the plugin** via npm:
    ```bash
    npm install nodered-library-pocketbase-store
