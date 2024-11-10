@@ -1,14 +1,23 @@
 {
-  "name": "nodered-library-pocketbase-store",
+  "name": "@node-red/library-pocketbase-store",
   "version": "0.1.0",
-  "description": "Nodered Pocketbase Flow Storage Plugin",
+  "description": "Node-RED Storage Plugin that stores flows information to a PocketBase instance.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "nodered"
   ],
+  "node-red": {
+    "plugins": {
+      "pocketbasestore": "index.js"
+    }
+  },
   "author": "Frank Brano Gomez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pocketbase": "^0.21.5"
+  }
 }
