@@ -1,5 +1,5 @@
 {
-  "name": "@node-red/library-pocketbase-store",
+  "name": "nodered-library-pocketbase-store",
   "version": "0.1.0",
   "description": "Node-RED Storage Plugin that stores flows information to a PocketBase instance.",
   "main": "index.js",
